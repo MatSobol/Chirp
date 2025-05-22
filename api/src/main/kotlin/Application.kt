@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
     io.ktor.server.netty.EngineMain.main(args)
 }
 
+// TODO: Implement Ktor-Koin integration (Koin didn't support the Ktor version used when this app was developed)
 fun Application.module() {
     install(ContentNegotiation) {
         json()
