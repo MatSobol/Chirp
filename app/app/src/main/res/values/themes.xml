@@ -1,0 +1,19 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Theme.Chirp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Chirp.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Chat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+<!--    <style name="Theme.Chat.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Chirp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+</resources>

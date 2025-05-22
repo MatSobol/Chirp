@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nav_chatsPreview">
+
+    <fragment
+        android:id="@+id/nav_chatsPreview"
+        android:name="com.example.chirp.fragments.chatsPreview.ChatsPreviewFragment"
+        android:label="Chats"
+        tools:layout="@layout/chats_fragment_chats_preview" />
+    <fragment
+        android:id="@+id/nav_friendsFragment"
+        android:name="com.example.chirp.fragments.friends.FriendsFragment"
+        android:label="Friends" >
+        <action
+            android:id="@+id/action_nav_friendsFragment_to_addFriend"
+            app:destination="@id/addFriend" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFriend"
+        android:name="com.example.chirp.fragments.friends.AddFriend"
+        android:label="Add friend" />
+</navigation>

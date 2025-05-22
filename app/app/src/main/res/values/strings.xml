@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chirp</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Repeat password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Log out</string>
+    <string name="action_register">Register</string>
+    <string name="invalid_name">Name must be > 5 characters</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be > 5 characters</string>
+    <string name="invalid_repeat_password">Passwords must be the same</string>
+    <string name="show_password">Show password</string>
+    <string name="login_successful">"Login successful"</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registration_successful">"Registration successful"</string>
+    <string name="registration_failed">"Registration failed"</string>
+    <string name="no_account_text">"No account? "</string>
+    <string name="have_account_text">"Have an account? "</string>
+    <string name="friends_tab_1_label">All friends</string>
+    <string name="friends_tab_2_label">Requests</string>
+    <string name="friends_add_friend">Add friend</string>
+</resources>

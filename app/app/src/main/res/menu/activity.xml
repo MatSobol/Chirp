@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:fitsSystemWindows="true">
+    <group android:checkableBehavior="single">
+        <item android:title="Chats" android:id="@+id/nav_chatsPreview" android:icon="@drawable/ic_chat"/>
+        <item android:title="Friends" android:id="@+id/nav_friendsFragment" android:icon="@drawable/ic_group"/>
+        <item android:title="Account" android:id="@+id/nav_loginFragment" android:icon="@drawable/ic_action_name"/>
+    </group>
+</menu>
